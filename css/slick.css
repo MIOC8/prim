@@ -1,0 +1,128 @@
+/* Слайдер */
+.slick-slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+/* Слайд */
+.slick-slide {
+    border-radius: 40px;
+}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Стрелка */
+.slick-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    display: none;
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+    left: 0;
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+    right: 0;
+}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.slick-dots {
+    position: relative;
+    bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+    cursor: context-menu;
+}
+
+.slick-dots li {
+    font-size: 0px;
+    transition: 0.5s;
+    cursor: context-menu;
+}
+
+/* Активная точка */
+.slick-dots li.slick-active button {
+    background: #222;
+    width: 30px;
+    transition: 0.5s;
+}
+
+/* Элемент точки */
+.slick-dots li button {
+    background: #ffffff;
+    font-size: 0px;
+    transition: 0.5s;
+    width: 10px;
+    margin: 5px;
+    height: 10px;
+    border-radius: 10px;
+    cursor: context-menu;
+}
+
+.slider-item2__main {
+    display: inline;
+}
+
+.slider-item2__main {
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    font-weight: 400;
+    transition: 0.4s;
+    font-size: 16px;
+    border: 2px solid #222;
+}
+
+.slider-item2__main .slick-slide {
+    width: 0px;
+}
+
+.slider-item2__main-active {
+    color: #fff;
+    border: 2px solid #ffffff;
+    background: #222;
+}
